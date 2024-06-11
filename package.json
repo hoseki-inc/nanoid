@@ -31,7 +31,10 @@
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
-  "repository": "ai/nanoid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoseki-inc/nanoid.git"
+  },
   "exports": {
     ".": {
       "browser": "./index.browser.js",
@@ -47,7 +50,9 @@
   "react-native": {
     "./index.js": "./index.browser.js"
   },
-  "bin": "./bin/nanoid.js",
+  "bin": {
+    "nanoid": "bin/nanoid.js"
+  },
   "sideEffects": false,
   "types": "./index.d.ts",
   "devDependencies": {
