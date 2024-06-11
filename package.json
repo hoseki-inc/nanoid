@@ -20,6 +20,9 @@
   "engines": {
     "node": "^18 || >=20"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "funding": [
     {
       "type": "github",
